@@ -14,8 +14,7 @@ Chosen because:
 - On-device — no network dependency, works offline
 - Zero setup cost — no server, no API keys, no billing
 - Well suited to a single-user pantry app with local data
-- Covered in the module's persistent data chapter
-- Full CRUD via standard `ContentValues` / `Cursor` APIs
+- Full CRUD via standard ContentValues / Cursor APIs
 
 ## Setup & Run Instructions
 1. Install Android Studio Hedgehog (2023.1.1) or newer.
