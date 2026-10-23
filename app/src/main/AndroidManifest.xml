@@ -8,7 +8,7 @@
         android:label="Smart Pantry"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SmartPantryManager"">
+        android:theme="@style/Theme.SmartPantryManager">
         <activity
             android:name=".PantryListActivity"
             android:exported="true"

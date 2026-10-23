@@ -1,9 +1,9 @@
+
 package com.matomemojapelo.smartpantrymanager
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
@@ -13,15 +13,17 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.matomemojapelo.smartpantrymanager.ui.theme.SmartPantryManagerTheme
 
-class MainActivity : ComponentActivity() {
+class PantryListActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+
         setContent {
             SmartPantryManagerTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                Scaffold(
+                    modifier = Modifier.fillMaxSize()
+                ) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "HungryHungryHippo",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -31,7 +33,10 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun Greeting(
+    name: String,
+    modifier: Modifier = Modifier
+) {
     Text(
         text = "Hello $name!",
         modifier = modifier
@@ -42,6 +47,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     SmartPantryManagerTheme {
-        Greeting("Android")
+        Greeting(name = "HungryHungryHippo")
     }
 }
