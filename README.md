@@ -6,7 +6,7 @@ using strictly those ingredients only — no shopping trip required.
 
 ## Assignment
 Mobile App Development 700 — Practical Assignment
-Student: Matome Joseph Mojapelo 402310987
+Student: Matome Joseph Mojapelo - 402310987
 
 ## Database Choice
 SQLite (via `SQLiteOpenHelper`)
